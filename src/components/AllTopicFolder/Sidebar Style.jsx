@@ -2,10 +2,9 @@ import styled from "styled-components";
 
 export const SidebarContent = styled.div`
     width: 15%;  
-    color: #E8E7E7;  
-    padding-left:10px;
+    color: #E8E7E7;     
     cursor: pointer;
-    //border:1px solid red;
+    /* border:1px solid red; */
     text-align: left;
 
     & span {

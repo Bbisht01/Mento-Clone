@@ -1,15 +1,24 @@
 import styled from "styled-components";
 
 export const Dataproducts = styled.div`
+/* & *{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
   .Main_cont {
     width: 100%;
-    height: 2287px;
+    height: 1000px;
     background-image: url(${({ image }) => image});
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
     top: 0%;
     background-color: black;
+    /* border: 1px solid red; */
+    left: 0;
+    /* text-align: center; */
   }
 
   .items_cont {
@@ -19,6 +28,9 @@ export const Dataproducts = styled.div`
     margin-top: 180px;
     text-align: center;
     color: white;
+    line-height: 1.8;
+    text-align: center !important;
+    /* border: 1px solid red; */
   }
 
   .learnmore {
@@ -26,16 +38,22 @@ export const Dataproducts = styled.div`
     height: 18px;
     text-align: center;
     font-weight: bold;
+    align-items: center;
+    text-align: center !important;
+    /* border: 1px solid red; */
   }
 
   .div_right {
-    width: 390px;
+    width: 34%;
     height: 64px;
     margin: auto;
     text-align: justify;
     font-weight: bold;
     color: white;
     margin-top: 20px;
+    /* margin-left: 35%; */
+    line-height: 1;
+    /* border: 1px solid red; */
   }
 
   .heading {
@@ -43,6 +61,8 @@ export const Dataproducts = styled.div`
     height: 126px;
     font-size: 25px;
     margin: auto;
+    text-align: center !important;    
+    /* border: 1px solid blue; */
   }
 
   .offer {
@@ -50,6 +70,8 @@ export const Dataproducts = styled.div`
     height: 18px;
     margin: auto;
     font-weight: bold;
+    margin-bottom: 10px;
+    /* border: 1px solid blue; */
   }
 
   .button > button {
@@ -66,6 +88,7 @@ export const Dataproducts = styled.div`
     color: white;
     font-weight: bold;
     border: none;
+    margin-left: 30px;
   }
 
   .orange {
@@ -74,11 +97,13 @@ export const Dataproducts = styled.div`
 
   .player {
     width: 200px;
-    height: 50px;
+    height: 35px;
     display: flex;
     justify-content: space-around;
     margin: auto;
     font-weight: bold;
     margin-top: 25px;
+    padding-top: 7px;
+    /* border:1px solid red */
   }
 `;

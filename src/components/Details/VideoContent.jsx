@@ -7,6 +7,7 @@ import { Footer } from "../Footer/Footer";
 import { AppContext } from "../../ContextApi/AppContext";
 import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
+
 // import { Play } from "./Play";
 
 export const VideoContent = ({ setSelectedVideo }) => {
@@ -147,7 +148,7 @@ export const VideoContent = ({ setSelectedVideo }) => {
                       style={{
                         width: "100%",
                         height: "100%",
-                        objectFit: "cover",
+                        objectFit: "cover",border:"1px solid black"
                       }}
                       src={items.video_poster}
                       alt=""
@@ -166,7 +167,7 @@ export const VideoContent = ({ setSelectedVideo }) => {
             );
           })}
         </div>
-        <div className="about">
+        <div className="about" style={{width:"30%",marginLeft:"-20%"}}>
           <div className="author-info">
             <div className="profile"></div>
             <div className="author-detail">

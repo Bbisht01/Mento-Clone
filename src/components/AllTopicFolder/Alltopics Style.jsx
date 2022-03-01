@@ -2,21 +2,22 @@ import styled from "styled-components";
 
 export const AllTopicContent = styled.div`
 
-    width: 60%;
-    //border: 1px solid blue;
+    width: 70%;
+    /* border: 1px solid blue;  */
     display: grid;
     grid-template-columns: repeat(3,30%);
     justify-content: space-around;
     cursor: pointer;
     padding-top:20px;
+    /* gap: 2%; */
     font-family: 'Roboto Condensed', sans-serif;    
   
 
     & .card{
-       // border: 1px solid red;
+       /* border: 1px solid red; */
         height: 330px;
         border-radius: 10px;
-       // width: 200px;
+       width: 100%;
       // background-image: url("https://d1tthr7pv14hhy.cloudfront.net/Images/Courses/Improv-Comedy/landscape+saad+khan.jpg");
         margin-top: 10%;
         background-repeat:no-repeat;

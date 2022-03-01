@@ -1,35 +1,46 @@
 .Main_cont1 {
-    width: 1145px;
+    width: 80%;
     height: 1300px;
     margin: auto;
     background: #ffffff;
     border-radius: 10px;
     display: flex;
     margin-top: 20px;
+    padding: 20px;
+    /* border: 1px solid red; */
 }
 
 .videos {
-    width: 900px;
+    width: 100%;
     height: 1300px;
+    
 }
 
 .about {
-    width: 343px;
+    /* width: 30%; */
     height: 1200px;
     background-color: rgba(247, 247, 247, 255);
+   
+    padding: 20px;
+    text-align: left;
+    /* margin-right: 20%; */
+   
 }
 
 .sub_navbar {
-    width: 802px;
+    width: 75%;
     height: 73px;
     background-color:rgba(247, 247, 247, 255);
     justify-content: space-between;
     display: flex;
+    padding-left: 30px;    
+    /* border: 1px solid red; */
 
 }
 
 .vertical {
     border-left: 5px solid black;
+    
 }
 
 .svg {
@@ -42,29 +53,38 @@
 
 .video_count {
     display: flex;
-    justify-content: space-around;
+    width:70%;
+    justify-content: space-between;
     margin-top: 10px;
+    padding-left: 35px;
+    /* padding-right: 40px; */
     font-weight: bold;
-    align-items: center;
+    text-align: left;
+    /* border: 1px solid blue; */
 }
 
 .videotime {
-
+    width: 20%;
     margin-top: 10px;
     font-weight: bold;
     margin-right: 450px;
     color:#7e7d7d;
+    padding-left: 35px;
+    /* border: 1px solid blue; */
 
 }
 
 .videosshow {
-    width: 760px;
+    width: 70%;
     height: 165px;
     background-color: rgba(255, 255, 255, 0.548);
-    margin: auto;
+    /* margin: auto; */
     margin-top: 10px;
     display: flex;
     border-radius: 5px;
+    padding-left: 35px;
+    /* margin-left: 5%; */
+    /* border: 1px solid blue; */
 
 }
 
@@ -82,7 +102,9 @@
     width:800px;
     background-color:rgba(247, 247, 247, 255);
   text-align: justify;
-   color: #bebebe
+   color: #bebebe;
+   padding-left: 10px;
+   /* border: 1px solid blue; */
 ;
 
   }

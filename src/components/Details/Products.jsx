@@ -54,7 +54,7 @@ export const Products = () => {
               <span> LEARN FROM</span>
             </div>
             <div className="heading">
-              <h1>
+              <h1 style={{textAlign:"center"}}>
                 {name} about a career in {profession}
               </h1>
             </div>
