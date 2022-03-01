@@ -148,10 +148,9 @@ export const VideoContent = ({ setSelectedVideo }) => {
                       style={{
                         width: "100%",
                         height: "100%",
-                        objectFit: "cover",border:"1px solid black"
+                        objectFit: "cover"
                       }}
-                      src={items.video_poster}
-                      alt=""
+                      src="https://i.ibb.co/BjMdgSf/trailor-poster.jpg" alt="trailor-poster"
                     />
                   </div>
                   <div className="contentdisplay">

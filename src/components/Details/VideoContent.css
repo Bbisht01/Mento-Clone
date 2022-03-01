@@ -28,7 +28,7 @@
 }
 
 .sub_navbar {
-    width: 75%;
+    width: 78%;
     height: 73px;
     background-color:rgba(247, 247, 247, 255);
     justify-content: space-between;
@@ -94,6 +94,11 @@
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
+    
+}
+.videosdisplay img{
+    width: 100%;
+    
 }
 
 .contentdisplay {
